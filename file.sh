@@ -10,7 +10,7 @@ do
     echo "=============================="
     echo "Creating system$i .."
     sleep 1
-    sudo docker run -it tomcat /bin/bash
+    sudo docker run -d -it tomcat /bin/bash
     echo "system$i has been created!"
     echo "=============================="
 done
