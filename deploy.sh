@@ -1,4 +1,4 @@
-TOMCAT_HOST=172.17.0.2
+TOMCAT_HOST=172.17.0.3
 TOMCAT_USER=root
 TOMCAT_HOME=/usr/local/tomcat
 #
