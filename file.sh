@@ -5,7 +5,7 @@ count=$3
 echo "creating $count containers.."
 sleep 2;
 
-for i in `seq $count`;
+for i in `seq $count`
 do
     echo "=============================="
     echo "Creating system$i .."
