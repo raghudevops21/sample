@@ -22,4 +22,5 @@ fi
 echo "starting tomcat server..."
 $TOMCAT_HOME/bin/startup.sh 1>/dev/null 2>&1
 
-echo "deployment is successful!"
+echo "deployment is successful!!"
+    
