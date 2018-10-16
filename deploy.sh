@@ -11,7 +11,7 @@ sleep 3
 $TOMCAT_HOME/bin/shutdown.sh 1>/dev/null 2>&1
 
 if [ -f $WAR_FILE_PATH ];then
-    echo "deploying mavennew application..."
+    echo "deploying ecom application..."
     sleep 4
     sshpass -p $TOMCAT_PWD ssh $TOMCAT_USER@$TOMCAT_HOST
     scp $WAR_FILE_PATH $TOMCAT_USER@$TOMCAT_HOST:$TOMCAT_HOME/webapps
