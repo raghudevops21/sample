@@ -1,9 +1,9 @@
-TOMCAT_HOST=172.17.0.3
-TOMCAT_USER=root
-TOMCAT_PWD=root
+TOMCAT_HOST=172.17.0.2
+TOMCAT_USER=user
+TOMCAT_PWD=user
 TOMCAT_HOME=/usr/local/tomcat
 #
-WAR_FILE_PATH=/home/interview/.jenkins/workspace/job2/target/mavennew.war
+WAR_FILE_PATH=/home/raghu/.jenkins/workspace/job1/target/ecom.war
 
 echo "Bringing tomcat server down for deployment..."
 sleep 3
