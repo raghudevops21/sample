@@ -10,7 +10,7 @@ sleep 3
 
 $TOMCAT_HOME/bin/shutdown.sh 1>/dev/null 2>&1
 
-if [ -f $WAR_FILE_PATH ];then
+if [ -f $WAR_FILE_PATH ]; then
     echo "deploying ecom application..."
     sleep 4
     sshpass -p $TOMCAT_PWD ssh $TOMCAT_USER@$TOMCAT_HOST
